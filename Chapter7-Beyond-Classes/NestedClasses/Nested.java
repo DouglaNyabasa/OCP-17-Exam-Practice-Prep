@@ -1,5 +1,5 @@
-public class NestedClass {
-    public int x = 20; // Field in the outer class
+public class Nested {
+    private int x = 20; // Field in the outer class
 
     // Inner class
     public class Inner {
@@ -10,7 +10,7 @@ public class NestedClass {
     }
 
     public static void main(String[] args) {
-        NestedClass outer = new NestedClass(); // Create an instance of the outer class
+        Nested outer = new Nested(); // Create an instance of the outer class
         Inner inner = outer.new Inner(); // Create an instance of the inner class
     }
 }
