@@ -27,7 +27,11 @@ public class MapMethods {
         System.out.println(map.size());
 	map.keySet().forEach(System.out::println);
 	map.values().forEach(System.out::println);
-
+	 System.out.println("================================");
+	map.entrySet().forEach(e -> System.out.println(e.getKey() + " " + e.getValue()));
+         System.out.println("================================");
+          System.out.println("my favourite anime characters is: " + map.getOrDefault(9,"Douglas Nyabasa"));
+        
 
 
 
