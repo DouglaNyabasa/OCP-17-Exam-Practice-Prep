@@ -13,8 +13,12 @@ public class UnboundedWildcards {
         ArrayList<String> anime = new ArrayList<>();
        anime.add("naruto");
        anime.add("bungo stray dogs");
+       List<Integer> ratingList = new ArrayList<>();
+        ratingList.add(1);
+        ratingList.add(2);
 
-        animeShows(anime);       
+        animeShows(anime); 
+        animeShows(ratingList);	
     }
 }
 
